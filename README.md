@@ -39,10 +39,14 @@ command [arg1 arg2 ...] [< input_file] [> output_file] [&]
 
 ## Instructions ##
 Compile the run program with:
-gcc -o smallsh smallsh.c
-
+```
+gcc -o smallsh shell.c helpers.c
+```
 Run the shell with:
+```
 smallsh
-
+```
 Exit the shell with:
+```
 exit
+```
