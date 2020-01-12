@@ -20,7 +20,9 @@ Other commands are handled using execcvp()
 The colon : symbol is the command line prompt.
 
 The general syntax of a command:
+```
 command [arg1 arg2 ...] [< input_file] [> output_file] [&]
+```
 
 ### Syntax: ###
 * All words or built in commands must be seperated by spaces. This includes <, >, &.
